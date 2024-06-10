@@ -1,7 +1,9 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
+
 import Header from './components/Header.js';
 import LandingPage from './components/LandingPage.js';
 import StorePage from './components/StorePage.js';

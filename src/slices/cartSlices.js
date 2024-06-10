@@ -19,4 +19,4 @@ const cartSlice = createSlice({
   },
 });
 
-export const { addItem, removeItem, clearCart } = cartSlice
+export default cartSlice
