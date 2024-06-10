@@ -1,0 +1,36 @@
+/* src/components/StorePage/StorePage.css */
+.store-page {
+    padding: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 0 21%;
+    box-sizing: border-box;
+  }
+  
+  .product-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .product-item p {
+    margin: 0 0 10px;
+  }
+  
+  .product-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
