@@ -2,12 +2,12 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header/Header';
-import LandingPage from './components/LandingPage/LandingPage';
-import StorePage from './components/StorePage/StorePage';
-import CartPage from './components/CartPage/CartPage';
-import Register from './components/Register/Register';
-import Login from './components/Login/Login';
+import Header from './components/Header.js';
+import LandingPage from './components/LandingPage.js';
+import StorePage from './components/StorePage.js';
+import CartPage from './components/CartPage.js';
+import Register from './components/Register.js';
+import Login from './components/Login.js';
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 // src/components/CartPage/CartPage.js
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeItem, clearCart } from '../../slices/cartSlice';
+import { removeItem, clearCart } from './slices/cartSlice';
 import './CartPage.css';
 
 const CartPage = () => {

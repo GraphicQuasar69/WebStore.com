@@ -1,7 +1,7 @@
 // src/components/StorePage/StorePage.js
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { addItem } from '../../slices/cartSlice';
+import { addItem } from './slices/cartSlice';
 import './StorePage.css';
 
 const products = [
